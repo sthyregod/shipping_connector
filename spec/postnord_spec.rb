@@ -1,0 +1,63 @@
+# frozen_string_literal: true
+
+require 'rspec'
+require 'shipping_connector/carrier'
+require 'shipping_connector/carrier/postnord'
+require 'shipping_connector/service_point'
+
+describe 'Postnord' do
+  let(:stubs) { Faraday::Adapter::Test::Stubs.new }
+  let(:conn) { Faraday.new { |b| b.adapter(:test, stubs) } }
+  let(:service_points_by_address) { File.read('spec/data/postnord_list_by_address.json') }
+  let(:service_points_by_coordinates) { File.read('spec/data/postnord_list_by_coordinates.json') }
+  let(:service_points_by_id) { File.read('spec/data/postnord_find_by_id.json') }
+
+  before do
+    @postnord = ShippingConnector::Postnord.new(api_key: 'api_key')
+    allow(@postnord).to receive(:connection) { conn }
+  end
+
+  context 'when first parameter is :list' do
+    it 'returns a service point object array based on address' do
+      stubs.get('/rest/businesslocation/v5/servicepoints/nearest/byaddress') do
+        [
+          200,
+          { 'Content-Type': 'application/json' },
+          service_points_by_address
+        ]
+      end
+      service_points = @postnord.service_points(:list_address, zip_code: '33234', city: 'Gislaved', country: 'SE', address: 'Holmengatan 14')
+      expect(service_points.first&.id).to eq '376062'
+      expect(service_points.first&.opening_hours&.monday).to eq '07:00 - 20:00'
+    end
+  end
+
+  it 'returns a service point object array based on coordinates' do
+    stubs.get('/rest/businesslocation/v5/servicepoints/nearest/bycoordinates') do
+      [
+        200,
+        { 'Content-Type': 'application/json' },
+        service_points_by_coordinates
+      ]
+    end
+    service_points = @postnord.service_points(:list_coordinates, country: 'SE', latitude: '59.338765', longitude: '18.0263967')
+    expect(service_points.first&.id).to eq '592977'
+    expect(service_points.first&.opening_hours&.monday).to eq '09:00 - 20:00'
+  end
+
+  context 'when first parameter is an integer' do
+    it 'returns a single service point' do
+      stubs.get('/rest/businesslocation/v5/servicepoints/ids') do
+        [
+          200,
+          { 'Content-Type': 'application/json' },
+          service_points_by_id
+        ]
+      end
+
+      service_point = @postnord.service_points(376_062, country: 'SE')
+      expect(service_point.id).to eq '376062'
+      expect(service_point.opening_hours.monday).to eq '07:00 - 20:00'
+    end
+  end
+end

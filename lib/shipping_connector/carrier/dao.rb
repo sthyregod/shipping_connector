@@ -8,13 +8,12 @@ module ShippingConnector
     # @overload initialize(customer_id, password)
     #   @param customer_id [Integer] login details for the API user
     #   @param password [String] login details for the API user
-    #
     def initialize(options = {})
       require! options, :customer_id, :password
       super
     end
 
-    # Returns a list of service points or a single service point
+    # Returns a list of service points or a single service point. The returned distance is as the crow flies.
     # @overload service_points(scope, zip_code, address, limit = 10)
     #   @param scope [Symbol] the scope: `:list` for listing nearest service points
     #   @param zip_code [Integer, String] zip code for address to search from

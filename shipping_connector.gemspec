@@ -2,7 +2,7 @@
 
 Gem::Specification.new do |s|
   s.name         = 'shipping_connector'
-  s.version      = '0.0.0'
+  s.version      = '0.1.0'
   s.summary      = 'A simple shipping_connector abstraction library'
   s.description  = <<-DESC
     ShippingConnector is an abstraction library that makes connecting to various shipping
