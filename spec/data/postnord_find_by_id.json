@@ -1,0 +1,124 @@
+{
+  "servicePointInformationResponse": {
+    "compositeFault": null,
+    "customerSupports": [
+      {
+        "customerSupportPhoneNo": "+46771333310",
+        "country": "SE"
+      }
+    ],
+    "servicePoints": [
+      {
+        "name": "ICA KVANTUM GISLAVED",
+        "servicePointId": "376062",
+        "phoneNoToCashRegister": "0371-586600",
+        "routingCode": null,
+        "handlingOffice": null,
+        "locationDetail": null,
+        "routeDistance": null,
+        "pickup": {
+          "cashOnDelivery": null,
+          "products": [
+            {
+              "name": "Parcel",
+              "timeSlots": {
+                "availableForPickupEarlyCollect": []
+              }
+            }
+          ],
+          "heavyGoodsProducts": []
+        },
+        "visitingAddress": {
+          "countryCode": "SE",
+          "city": "GISLAVED",
+          "streetName": "Stinsgatan",
+          "streetNumber": "2",
+          "postalCode": "33230",
+          "additionalDescription": null
+        },
+        "deliveryAddress": {
+          "countryCode": "SE",
+          "city": "GISLAVED",
+          "streetName": "Stinsgatan",
+          "streetNumber": "2",
+          "postalCode": "33230",
+          "additionalDescription": null
+        },
+        "notificationArea": {
+          "postalCodes": [
+            "33230",
+            "33231",
+            "33232",
+            "33233",
+            "33234",
+            "33235",
+            "33236",
+            "33237",
+            "33238",
+            "33291",
+            "33292"
+          ]
+        },
+        "coordinates": [
+          {
+            "countryCode": "SE",
+            "northing": 57.303955262565,
+            "easting": 13.5433674461746,
+            "srId": "EPSG:4326"
+          }
+        ],
+        "openingHours": {
+          "specialDates": [],
+          "postalServices": [
+            {
+              "openTime": "07:00",
+              "openDay": "Monday",
+              "closeTime": "20:00",
+              "closeDay": "Monday"
+            },
+            {
+              "openTime": "07:00",
+              "openDay": "Tuesday",
+              "closeTime": "20:00",
+              "closeDay": "Tuesday"
+            },
+            {
+              "openTime": "07:00",
+              "openDay": "Wednesday",
+              "closeTime": "20:00",
+              "closeDay": "Wednesday"
+            },
+            {
+              "openTime": "07:00",
+              "openDay": "Thursday",
+              "closeTime": "20:00",
+              "closeDay": "Thursday"
+            },
+            {
+              "openTime": "07:00",
+              "openDay": "Friday",
+              "closeTime": "20:00",
+              "closeDay": "Friday"
+            },
+            {
+              "openTime": "08:00",
+              "openDay": "Saturday",
+              "closeTime": "18:00",
+              "closeDay": "Saturday"
+            },
+            {
+              "openTime": "08:00",
+              "openDay": "Sunday",
+              "closeTime": "18:00",
+              "closeDay": "Sunday"
+            }
+          ]
+        },
+        "type": {
+          "groupTypeId": 1,
+          "groupTypeName": "Service agent"
+        }
+      }
+    ]
+  }
+}

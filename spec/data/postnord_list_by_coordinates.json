@@ -1,0 +1,573 @@
+{
+  "servicePointInformationResponse": {
+    "compositeFault": null,
+    "customerSupports": [
+      {
+        "customerSupportPhoneNo": "+46771333310",
+        "country": "SE"
+      }
+    ],
+    "servicePoints": [
+      {
+        "name": "41:AN CITY TOBAK",
+        "servicePointId": "592977",
+        "phoneNoToCashRegister": "073-3322232",
+        "routingCode": null,
+        "handlingOffice": null,
+        "locationDetail": null,
+        "routeDistance": 0,
+        "pickup": {
+          "cashOnDelivery": null,
+          "products": [
+            {
+              "name": "Parcel",
+              "timeSlots": {
+                "availableForPickupEarlyCollect": []
+              }
+            }
+          ],
+          "heavyGoodsProducts": []
+        },
+        "visitingAddress": {
+          "countryCode": "SE",
+          "city": "STOCKHOLM",
+          "streetName": "S:t Eriksgatan",
+          "streetNumber": "41",
+          "postalCode": "11234",
+          "additionalDescription": null
+        },
+        "deliveryAddress": {
+          "countryCode": "SE",
+          "city": "STOCKHOLM",
+          "streetName": "S:t Eriksgatan",
+          "streetNumber": "41",
+          "postalCode": "11234",
+          "additionalDescription": null
+        },
+        "notificationArea": {
+          "postalCodes": [
+            "11229",
+            "11230",
+            "11236",
+            "11242",
+            "11269"
+          ]
+        },
+        "coordinates": [
+          {
+            "countryCode": "SE",
+            "northing": 0,
+            "easting": 0,
+            "srId": "EPSG:4326"
+          }
+        ],
+        "openingHours": {
+          "specialDates": [
+            {
+              "reason": "Christmas Day",
+              "isClosed": true
+            },
+            {
+              "reason": "Boxing Day",
+              "isClosed": true
+            },
+            {
+              "reason": "New Years Day",
+              "isClosed": true
+            },
+            {
+              "reason": "Trettondagen",
+              "isClosed": true
+            }
+          ],
+          "postalServices": [
+            {
+              "openTime": "09:00",
+              "openDay": "Monday",
+              "closeTime": "20:00",
+              "closeDay": "Monday"
+            },
+            {
+              "openTime": "09:00",
+              "openDay": "Tuesday",
+              "closeTime": "20:00",
+              "closeDay": "Tuesday"
+            },
+            {
+              "openTime": "09:00",
+              "openDay": "Wednesday",
+              "closeTime": "20:00",
+              "closeDay": "Wednesday"
+            },
+            {
+              "openTime": "09:00",
+              "openDay": "Thursday",
+              "closeTime": "20:00",
+              "closeDay": "Thursday"
+            },
+            {
+              "openTime": "09:00",
+              "openDay": "Friday",
+              "closeTime": "20:00",
+              "closeDay": "Friday"
+            },
+            {
+              "openTime": "10:00",
+              "openDay": "Saturday",
+              "closeTime": "19:30",
+              "closeDay": "Saturday"
+            },
+            {
+              "openTime": "11:00",
+              "openDay": "Sunday",
+              "closeTime": "17:00",
+              "closeDay": "Sunday"
+            }
+          ]
+        },
+        "type": {
+          "groupTypeId": 1,
+          "groupTypeName": "Service agent"
+        }
+      },
+      {
+        "name": "NORRBACKA LIVS",
+        "servicePointId": "586274",
+        "phoneNoToCashRegister": "0700-568080",
+        "routingCode": null,
+        "handlingOffice": null,
+        "locationDetail": null,
+        "routeDistance": 755,
+        "pickup": {
+          "cashOnDelivery": null,
+          "products": [
+            {
+              "name": "Parcel",
+              "timeSlots": {
+                "availableForPickupEarlyCollect": []
+              }
+            }
+          ],
+          "heavyGoodsProducts": []
+        },
+        "visitingAddress": {
+          "countryCode": "SE",
+          "city": "STOCKHOLM",
+          "streetName": "Norrbackagatan",
+          "streetNumber": "60",
+          "postalCode": "11334",
+          "additionalDescription": null
+        },
+        "deliveryAddress": {
+          "countryCode": "SE",
+          "city": "STOCKHOLM",
+          "streetName": "Norrbackagatan",
+          "streetNumber": "60",
+          "postalCode": "11334",
+          "additionalDescription": null
+        },
+        "notificationArea": {
+          "postalCodes": [
+            "11333",
+            "11340",
+            "11341"
+          ]
+        },
+        "coordinates": [
+          {
+            "countryCode": "SE",
+            "northing": 59.343528,
+            "easting": 18.032009,
+            "srId": "EPSG:4326"
+          }
+        ],
+        "openingHours": {
+          "specialDates": [],
+          "postalServices": [
+            {
+              "openTime": "08:00",
+              "openDay": "Monday",
+              "closeTime": "21:30",
+              "closeDay": "Monday"
+            },
+            {
+              "openTime": "08:00",
+              "openDay": "Tuesday",
+              "closeTime": "21:30",
+              "closeDay": "Tuesday"
+            },
+            {
+              "openTime": "08:00",
+              "openDay": "Wednesday",
+              "closeTime": "21:30",
+              "closeDay": "Wednesday"
+            },
+            {
+              "openTime": "08:00",
+              "openDay": "Thursday",
+              "closeTime": "21:30",
+              "closeDay": "Thursday"
+            },
+            {
+              "openTime": "08:00",
+              "openDay": "Friday",
+              "closeTime": "21:30",
+              "closeDay": "Friday"
+            },
+            {
+              "openTime": "09:00",
+              "openDay": "Saturday",
+              "closeTime": "21:30",
+              "closeDay": "Saturday"
+            },
+            {
+              "openTime": "09:00",
+              "openDay": "Sunday",
+              "closeTime": "21:00",
+              "closeDay": "Sunday"
+            }
+          ]
+        },
+        "type": {
+          "groupTypeId": 1,
+          "groupTypeName": "Service agent"
+        }
+      },
+      {
+        "name": "ICA VÄSTERMALMSGALLERIAN",
+        "servicePointId": "592971",
+        "phoneNoToCashRegister": "08-54570450",
+        "routingCode": null,
+        "handlingOffice": null,
+        "locationDetail": null,
+        "routeDistance": 825,
+        "pickup": {
+          "cashOnDelivery": null,
+          "products": [
+            {
+              "name": "Parcel",
+              "timeSlots": {
+                "availableForPickupEarlyCollect": []
+              }
+            }
+          ],
+          "heavyGoodsProducts": []
+        },
+        "visitingAddress": {
+          "countryCode": "SE",
+          "city": "STOCKHOLM",
+          "streetName": "Sankt Eriksgatan",
+          "streetNumber": "45",
+          "postalCode": "11234",
+          "additionalDescription": null
+        },
+        "deliveryAddress": {
+          "countryCode": "SE",
+          "city": "STOCKHOLM",
+          "streetName": "Sankt Eriksgatan",
+          "streetNumber": "45",
+          "postalCode": "11234",
+          "additionalDescription": null
+        },
+        "notificationArea": {
+          "postalCodes": [
+            "11219",
+            "11232",
+            "11234",
+            "11245",
+            "11246",
+            "11247",
+            "11248",
+            "11249",
+            "11250"
+          ]
+        },
+        "coordinates": [
+          {
+            "countryCode": "SE",
+            "northing": 59.334661,
+            "easting": 18.032326,
+            "srId": "EPSG:4326"
+          }
+        ],
+        "openingHours": {
+          "specialDates": [],
+          "postalServices": [
+            {
+              "openTime": "07:00",
+              "openDay": "Monday",
+              "closeTime": "22:00",
+              "closeDay": "Monday"
+            },
+            {
+              "openTime": "07:00",
+              "openDay": "Tuesday",
+              "closeTime": "22:00",
+              "closeDay": "Tuesday"
+            },
+            {
+              "openTime": "07:00",
+              "openDay": "Wednesday",
+              "closeTime": "22:00",
+              "closeDay": "Wednesday"
+            },
+            {
+              "openTime": "07:00",
+              "openDay": "Thursday",
+              "closeTime": "22:00",
+              "closeDay": "Thursday"
+            },
+            {
+              "openTime": "07:00",
+              "openDay": "Friday",
+              "closeTime": "22:00",
+              "closeDay": "Friday"
+            },
+            {
+              "openTime": "09:00",
+              "openDay": "Saturday",
+              "closeTime": "22:00",
+              "closeDay": "Saturday"
+            },
+            {
+              "openTime": "09:00",
+              "openDay": "Sunday",
+              "closeTime": "22:00",
+              "closeDay": "Sunday"
+            }
+          ]
+        },
+        "type": {
+          "groupTypeId": 1,
+          "groupTypeName": "Service agent"
+        }
+      },
+      {
+        "name": "MY WAY DROTTNINGSHOLMSVÄGEN",
+        "servicePointId": "592976",
+        "phoneNoToCashRegister": "073-5311739",
+        "routingCode": null,
+        "handlingOffice": null,
+        "locationDetail": null,
+        "routeDistance": 857,
+        "pickup": {
+          "cashOnDelivery": null,
+          "products": [
+            {
+              "name": "Parcel",
+              "timeSlots": {
+                "availableForPickupEarlyCollect": []
+              }
+            }
+          ],
+          "heavyGoodsProducts": []
+        },
+        "visitingAddress": {
+          "countryCode": "SE",
+          "city": "STOCKHOLM",
+          "streetName": "Drottningholmsvägen",
+          "streetNumber": "53",
+          "postalCode": "11219",
+          "additionalDescription": null
+        },
+        "deliveryAddress": {
+          "countryCode": "SE",
+          "city": "STOCKHOLM",
+          "streetName": "Drottningholmsvägen",
+          "streetNumber": "53",
+          "postalCode": "11219",
+          "additionalDescription": null
+        },
+        "notificationArea": {
+          "postalCodes": [
+            "11219"
+          ]
+        },
+        "coordinates": [
+          {
+            "countryCode": "SE",
+            "northing": 59.331627,
+            "easting": 18.023262,
+            "srId": "EPSG:4326"
+          }
+        ],
+        "openingHours": {
+          "specialDates": [],
+          "postalServices": [
+            {
+              "openTime": "08:00",
+              "openDay": "Monday",
+              "closeTime": "23:00",
+              "closeDay": "Monday"
+            },
+            {
+              "openTime": "08:00",
+              "openDay": "Tuesday",
+              "closeTime": "23:00",
+              "closeDay": "Tuesday"
+            },
+            {
+              "openTime": "08:00",
+              "openDay": "Wednesday",
+              "closeTime": "23:00",
+              "closeDay": "Wednesday"
+            },
+            {
+              "openTime": "08:00",
+              "openDay": "Thursday",
+              "closeTime": "23:00",
+              "closeDay": "Thursday"
+            },
+            {
+              "openTime": "08:00",
+              "openDay": "Friday",
+              "closeTime": "23:00",
+              "closeDay": "Friday"
+            },
+            {
+              "openTime": "09:00",
+              "openDay": "Saturday",
+              "closeTime": "23:00",
+              "closeDay": "Saturday"
+            },
+            {
+              "openTime": "09:00",
+              "openDay": "Sunday",
+              "closeTime": "22:00",
+              "closeDay": "Sunday"
+            }
+          ]
+        },
+        "type": {
+          "groupTypeId": 1,
+          "groupTypeName": "Service agent"
+        }
+      },
+      {
+        "name": "SNABBKÖP KARLBERGSVÄGEN",
+        "servicePointId": "586273",
+        "phoneNoToCashRegister": "08-307667",
+        "routingCode": null,
+        "handlingOffice": null,
+        "locationDetail": null,
+        "routeDistance": 1245,
+        "pickup": {
+          "cashOnDelivery": null,
+          "products": [
+            {
+              "name": "Parcel",
+              "timeSlots": {
+                "availableForPickupEarlyCollect": []
+              }
+            }
+          ],
+          "heavyGoodsProducts": []
+        },
+        "visitingAddress": {
+          "countryCode": "SE",
+          "city": "STOCKHOLM",
+          "streetName": "Karlbergsvägen",
+          "streetNumber": "30",
+          "postalCode": "11327",
+          "additionalDescription": null
+        },
+        "deliveryAddress": {
+          "countryCode": "SE",
+          "city": "STOCKHOLM",
+          "streetName": "Karlbergsvägen",
+          "streetNumber": "30",
+          "postalCode": "11327",
+          "additionalDescription": null
+        },
+        "notificationArea": {
+          "postalCodes": [
+            "11326",
+            "11327",
+            "11332",
+            "11338",
+            "11339",
+            "11342"
+          ]
+        },
+        "coordinates": [
+          {
+            "countryCode": "SE",
+            "northing": 59.343008,
+            "easting": 18.044682,
+            "srId": "EPSG:4326"
+          }
+        ],
+        "openingHours": {
+          "specialDates": [
+            {
+              "reason": "Christmas Eve",
+              "openTime": "10:00",
+              "isClosed": false,
+              "closeTime": "14:00"
+            },
+            {
+              "reason": "Christmas Day",
+              "isClosed": true
+            },
+            {
+              "reason": "Boxing Day",
+              "isClosed": true
+            },
+            {
+              "reason": "New Years Eve",
+              "openTime": "10:00",
+              "isClosed": false,
+              "closeTime": "21:00"
+            },
+            {
+              "reason": "New Years Day",
+              "isClosed": true
+            }
+          ],
+          "postalServices": [
+            {
+              "openTime": "08:00",
+              "openDay": "Monday",
+              "closeTime": "20:00",
+              "closeDay": "Monday"
+            },
+            {
+              "openTime": "08:00",
+              "openDay": "Tuesday",
+              "closeTime": "20:00",
+              "closeDay": "Tuesday"
+            },
+            {
+              "openTime": "08:00",
+              "openDay": "Wednesday",
+              "closeTime": "20:00",
+              "closeDay": "Wednesday"
+            },
+            {
+              "openTime": "08:00",
+              "openDay": "Thursday",
+              "closeTime": "20:00",
+              "closeDay": "Thursday"
+            },
+            {
+              "openTime": "08:00",
+              "openDay": "Friday",
+              "closeTime": "20:00",
+              "closeDay": "Friday"
+            },
+            {
+              "openTime": "10:00",
+              "openDay": "Saturday",
+              "closeTime": "18:00",
+              "closeDay": "Saturday"
+            }
+          ]
+        },
+        "type": {
+          "groupTypeId": 1,
+          "groupTypeName": "Service agent"
+        }
+      }
+    ]
+  }
+}

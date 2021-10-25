@@ -1,0 +1,1158 @@
+{
+  "servicePointInformationResponse": {
+    "compositeFault": null,
+    "customerSupports": [
+      {
+        "customerSupportPhoneNo": "+46771333310",
+        "country": "SE"
+      }
+    ],
+    "servicePoints": [
+      {
+        "name": "ICA KVANTUM GISLAVED",
+        "servicePointId": "376062",
+        "phoneNoToCashRegister": "0371-586600",
+        "routingCode": null,
+        "handlingOffice": null,
+        "locationDetail": null,
+        "routeDistance": 0,
+        "pickup": {
+          "cashOnDelivery": null,
+          "products": [
+            {
+              "name": "Parcel",
+              "timeSlots": {
+                "availableForPickupEarlyCollect": []
+              }
+            }
+          ],
+          "heavyGoodsProducts": []
+        },
+        "visitingAddress": {
+          "countryCode": "SE",
+          "city": "GISLAVED",
+          "streetName": "Stinsgatan",
+          "streetNumber": "2",
+          "postalCode": "33230",
+          "additionalDescription": null
+        },
+        "deliveryAddress": {
+          "countryCode": "SE",
+          "city": "GISLAVED",
+          "streetName": "Stinsgatan",
+          "streetNumber": "2",
+          "postalCode": "33230",
+          "additionalDescription": null
+        },
+        "notificationArea": {
+          "postalCodes": [
+            "33230",
+            "33231",
+            "33232",
+            "33233",
+            "33234",
+            "33235",
+            "33236",
+            "33237",
+            "33238",
+            "33291",
+            "33292"
+          ]
+        },
+        "coordinates": [
+          {
+            "countryCode": "SE",
+            "northing": 57.303955262565,
+            "easting": 13.5433674461746,
+            "srId": "EPSG:4326"
+          }
+        ],
+        "openingHours": {
+          "specialDates": [],
+          "postalServices": [
+            {
+              "openTime": "07:00",
+              "openDay": "Monday",
+              "closeTime": "20:00",
+              "closeDay": "Monday"
+            },
+            {
+              "openTime": "07:00",
+              "openDay": "Tuesday",
+              "closeTime": "20:00",
+              "closeDay": "Tuesday"
+            },
+            {
+              "openTime": "07:00",
+              "openDay": "Wednesday",
+              "closeTime": "20:00",
+              "closeDay": "Wednesday"
+            },
+            {
+              "openTime": "07:00",
+              "openDay": "Thursday",
+              "closeTime": "20:00",
+              "closeDay": "Thursday"
+            },
+            {
+              "openTime": "07:00",
+              "openDay": "Friday",
+              "closeTime": "20:00",
+              "closeDay": "Friday"
+            },
+            {
+              "openTime": "08:00",
+              "openDay": "Saturday",
+              "closeTime": "18:00",
+              "closeDay": "Saturday"
+            },
+            {
+              "openTime": "08:00",
+              "openDay": "Sunday",
+              "closeTime": "18:00",
+              "closeDay": "Sunday"
+            }
+          ]
+        },
+        "type": {
+          "groupTypeId": 1,
+          "groupTypeName": "Service agent"
+        }
+      },
+      {
+        "name": "GISLAVED",
+        "servicePointId": "376031",
+        "phoneNoToCashRegister": "010-4361274",
+        "routingCode": null,
+        "handlingOffice": null,
+        "locationDetail": null,
+        "routeDistance": 1235,
+        "pickup": {
+          "cashOnDelivery": null,
+          "products": [],
+          "heavyGoodsProducts": []
+        },
+        "visitingAddress": {
+          "countryCode": "SE",
+          "city": "GISLAVED",
+          "streetName": "Karl-Johansgatan",
+          "streetNumber": "23",
+          "postalCode": "33233",
+          "additionalDescription": null
+        },
+        "deliveryAddress": {
+          "countryCode": "SE",
+          "city": "GISLAVED",
+          "streetName": "Karl-Johansgatan",
+          "streetNumber": "23",
+          "postalCode": "33233",
+          "additionalDescription": null
+        },
+        "notificationArea": {
+          "postalCodes": [
+            "33201",
+            "33220",
+            "33221",
+            "33222",
+            "33223",
+            "33224",
+            "33225",
+            "33228",
+            "33280",
+            "33281",
+            "33501",
+            "33528",
+            "33580"
+          ]
+        },
+        "coordinates": [
+          {
+            "countryCode": "SE",
+            "northing": 57.303493,
+            "easting": 13.534932,
+            "srId": "EPSG:4326"
+          }
+        ],
+        "openingHours": {
+          "specialDates": [
+            {
+              "reason": "All Saints Day",
+              "isClosed": true
+            },
+            {
+              "reason": "Christmas Eve",
+              "isClosed": true
+            },
+            {
+              "reason": "Christmas Day",
+              "isClosed": true
+            },
+            {
+              "reason": "Boxing Day",
+              "isClosed": true
+            },
+            {
+              "reason": "New Years Eve",
+              "isClosed": true
+            },
+            {
+              "reason": "New Years Day",
+              "isClosed": true
+            },
+            {
+              "reason": "Trettondagen",
+              "isClosed": true
+            }
+          ],
+          "postalServices": [
+            {
+              "openTime": "15:00",
+              "openDay": "Monday",
+              "closeTime": "18:00",
+              "closeDay": "Monday"
+            },
+            {
+              "openTime": "08:00",
+              "openDay": "Monday",
+              "closeTime": "09:30",
+              "closeDay": "Monday"
+            },
+            {
+              "openTime": "15:00",
+              "openDay": "Tuesday",
+              "closeTime": "18:00",
+              "closeDay": "Tuesday"
+            },
+            {
+              "openTime": "08:00",
+              "openDay": "Tuesday",
+              "closeTime": "09:30",
+              "closeDay": "Tuesday"
+            },
+            {
+              "openTime": "15:00",
+              "openDay": "Wednesday",
+              "closeTime": "18:00",
+              "closeDay": "Wednesday"
+            },
+            {
+              "openTime": "08:00",
+              "openDay": "Wednesday",
+              "closeTime": "09:30",
+              "closeDay": "Wednesday"
+            },
+            {
+              "openTime": "15:00",
+              "openDay": "Thursday",
+              "closeTime": "18:00",
+              "closeDay": "Thursday"
+            },
+            {
+              "openTime": "08:00",
+              "openDay": "Thursday",
+              "closeTime": "09:30",
+              "closeDay": "Thursday"
+            },
+            {
+              "openTime": "15:00",
+              "openDay": "Friday",
+              "closeTime": "18:00",
+              "closeDay": "Friday"
+            },
+            {
+              "openTime": "08:00",
+              "openDay": "Friday",
+              "closeTime": "09:30",
+              "closeDay": "Friday"
+            }
+          ]
+        },
+        "type": {
+          "groupTypeId": 1,
+          "groupTypeName": "Service agent"
+        }
+      },
+      {
+        "name": "COOP ANDERSTORP",
+        "servicePointId": "376064",
+        "phoneNoToCashRegister": "0371-17690",
+        "routingCode": null,
+        "handlingOffice": null,
+        "locationDetail": null,
+        "routeDistance": 1797,
+        "pickup": {
+          "cashOnDelivery": null,
+          "products": [
+            {
+              "name": "Parcel",
+              "timeSlots": {
+                "availableForPickupEarlyCollect": []
+              }
+            }
+          ],
+          "heavyGoodsProducts": []
+        },
+        "visitingAddress": {
+          "countryCode": "SE",
+          "city": "ANDERSTORP",
+          "streetName": "Brogatan",
+          "streetNumber": "42",
+          "postalCode": "33433",
+          "additionalDescription": null
+        },
+        "deliveryAddress": {
+          "countryCode": "SE",
+          "city": "ANDERSTORP",
+          "streetName": "Brogatan",
+          "streetNumber": "42",
+          "postalCode": "33433",
+          "additionalDescription": null
+        },
+        "notificationArea": {
+          "postalCodes": [
+            "33401",
+            "33420",
+            "33421",
+            "33422",
+            "33423",
+            "33424",
+            "33425",
+            "33431",
+            "33432",
+            "33433",
+            "33435",
+            "33480",
+            "33491"
+          ]
+        },
+        "coordinates": [
+          {
+            "countryCode": "SE",
+            "northing": 57.275367,
+            "easting": 13.627623,
+            "srId": "EPSG:4326"
+          }
+        ],
+        "openingHours": {
+          "specialDates": [],
+          "postalServices": [
+            {
+              "openTime": "07:00",
+              "openDay": "Monday",
+              "closeTime": "21:00",
+              "closeDay": "Monday"
+            },
+            {
+              "openTime": "07:00",
+              "openDay": "Tuesday",
+              "closeTime": "21:00",
+              "closeDay": "Tuesday"
+            },
+            {
+              "openTime": "07:00",
+              "openDay": "Wednesday",
+              "closeTime": "21:00",
+              "closeDay": "Wednesday"
+            },
+            {
+              "openTime": "07:00",
+              "openDay": "Thursday",
+              "closeTime": "21:00",
+              "closeDay": "Thursday"
+            },
+            {
+              "openTime": "07:00",
+              "openDay": "Friday",
+              "closeTime": "21:00",
+              "closeDay": "Friday"
+            },
+            {
+              "openTime": "08:00",
+              "openDay": "Saturday",
+              "closeTime": "20:00",
+              "closeDay": "Saturday"
+            },
+            {
+              "openTime": "08:00",
+              "openDay": "Sunday",
+              "closeTime": "20:00",
+              "closeDay": "Sunday"
+            }
+          ]
+        },
+        "type": {
+          "groupTypeId": 1,
+          "groupTypeName": "Service agent"
+        }
+      },
+      {
+        "name": "Lantmännen Reftele",
+        "servicePointId": "377662",
+        "phoneNoToCashRegister": "0371-20204",
+        "routingCode": null,
+        "handlingOffice": null,
+        "locationDetail": null,
+        "routeDistance": 6137,
+        "pickup": {
+          "cashOnDelivery": null,
+          "products": [
+            {
+              "name": "Parcel",
+              "timeSlots": {
+                "availableForPickupEarlyCollect": []
+              }
+            }
+          ],
+          "heavyGoodsProducts": []
+        },
+        "visitingAddress": {
+          "countryCode": "SE",
+          "city": "REFTELE",
+          "streetName": "Segerstadsvägen",
+          "streetNumber": "6",
+          "postalCode": "33375",
+          "additionalDescription": null
+        },
+        "deliveryAddress": {
+          "countryCode": "SE",
+          "city": "REFTELE",
+          "streetName": "Segerstadsvägen",
+          "streetNumber": "6",
+          "postalCode": "33375",
+          "additionalDescription": null
+        },
+        "notificationArea": {
+          "postalCodes": [
+            "33021",
+            "33303",
+            "33375",
+            "33376"
+          ]
+        },
+        "coordinates": [
+          {
+            "countryCode": "SE",
+            "northing": 57.173028,
+            "easting": 13.593557,
+            "srId": "EPSG:4326"
+          }
+        ],
+        "openingHours": {
+          "specialDates": [],
+          "postalServices": [
+            {
+              "openTime": "08:30",
+              "openDay": "Monday",
+              "closeTime": "18:00",
+              "closeDay": "Monday"
+            },
+            {
+              "openTime": "08:30",
+              "openDay": "Tuesday",
+              "closeTime": "18:00",
+              "closeDay": "Tuesday"
+            },
+            {
+              "openTime": "08:30",
+              "openDay": "Wednesday",
+              "closeTime": "18:00",
+              "closeDay": "Wednesday"
+            },
+            {
+              "openTime": "08:30",
+              "openDay": "Thursday",
+              "closeTime": "18:00",
+              "closeDay": "Thursday"
+            },
+            {
+              "openTime": "08:30",
+              "openDay": "Friday",
+              "closeTime": "18:00",
+              "closeDay": "Friday"
+            },
+            {
+              "openTime": "08:30",
+              "openDay": "Saturday",
+              "closeTime": "12:00",
+              "closeDay": "Saturday"
+            }
+          ]
+        },
+        "type": {
+          "groupTypeId": 1,
+          "groupTypeName": "Service agent"
+        }
+      },
+      {
+        "name": "ICA Supermarket Smålandsstenar",
+        "servicePointId": "377660",
+        "phoneNoToCashRegister": "0371-30580",
+        "routingCode": null,
+        "handlingOffice": null,
+        "locationDetail": null,
+        "routeDistance": 16157,
+        "pickup": {
+          "cashOnDelivery": null,
+          "products": [
+            {
+              "name": "Parcel",
+              "timeSlots": {
+                "availableForPickupEarlyCollect": []
+              }
+            }
+          ],
+          "heavyGoodsProducts": []
+        },
+        "visitingAddress": {
+          "countryCode": "SE",
+          "city": "SMÅLANDSSTENAR",
+          "streetName": "Södra Nissastigen",
+          "streetNumber": "8",
+          "postalCode": "33332",
+          "additionalDescription": null
+        },
+        "deliveryAddress": {
+          "countryCode": "SE",
+          "city": "SMÅLANDSSTENAR",
+          "streetName": "Södra Nissastigen",
+          "streetNumber": "8",
+          "postalCode": "33332",
+          "additionalDescription": null
+        },
+        "notificationArea": {
+          "postalCodes": [
+            "33330",
+            "33331",
+            "33332",
+            "33333",
+            "33391",
+            "33392",
+            "33393"
+          ]
+        },
+        "coordinates": [
+          {
+            "countryCode": "SE",
+            "northing": 57.161054,
+            "easting": 13.410817,
+            "srId": "EPSG:4326"
+          }
+        ],
+        "openingHours": {
+          "specialDates": [],
+          "postalServices": [
+            {
+              "openTime": "08:00",
+              "openDay": "Monday",
+              "closeTime": "22:00",
+              "closeDay": "Monday"
+            },
+            {
+              "openTime": "08:00",
+              "openDay": "Tuesday",
+              "closeTime": "22:00",
+              "closeDay": "Tuesday"
+            },
+            {
+              "openTime": "08:00",
+              "openDay": "Wednesday",
+              "closeTime": "22:00",
+              "closeDay": "Wednesday"
+            },
+            {
+              "openTime": "08:00",
+              "openDay": "Thursday",
+              "closeTime": "22:00",
+              "closeDay": "Thursday"
+            },
+            {
+              "openTime": "08:00",
+              "openDay": "Friday",
+              "closeTime": "22:00",
+              "closeDay": "Friday"
+            },
+            {
+              "openTime": "08:00",
+              "openDay": "Saturday",
+              "closeTime": "22:00",
+              "closeDay": "Saturday"
+            },
+            {
+              "openTime": "08:00",
+              "openDay": "Sunday",
+              "closeTime": "22:00",
+              "closeDay": "Sunday"
+            }
+          ]
+        },
+        "type": {
+          "groupTypeId": 1,
+          "groupTypeName": "Service agent"
+        }
+      },
+      {
+        "name": "HESTRA RADIO OCH SPORT",
+        "servicePointId": "376662",
+        "phoneNoToCashRegister": "0370-335710",
+        "routingCode": null,
+        "handlingOffice": null,
+        "locationDetail": null,
+        "routeDistance": 16699,
+        "pickup": {
+          "cashOnDelivery": null,
+          "products": [
+            {
+              "name": "Parcel",
+              "timeSlots": {
+                "availableForPickupEarlyCollect": []
+              }
+            }
+          ],
+          "heavyGoodsProducts": []
+        },
+        "visitingAddress": {
+          "countryCode": "SE",
+          "city": "HESTRA",
+          "streetName": "Mogatan",
+          "streetNumber": "2",
+          "postalCode": "33571",
+          "additionalDescription": null
+        },
+        "deliveryAddress": {
+          "countryCode": "SE",
+          "city": "HESTRA",
+          "streetName": "Mogatan",
+          "streetNumber": "2",
+          "postalCode": "33571",
+          "additionalDescription": null
+        },
+        "notificationArea": {
+          "postalCodes": [
+            "33027",
+            "33503",
+            "33571",
+            "33572"
+          ]
+        },
+        "coordinates": [
+          {
+            "countryCode": "SE",
+            "northing": 57.446696,
+            "easting": 13.59365,
+            "srId": "EPSG:4326"
+          }
+        ],
+        "openingHours": {
+          "specialDates": [],
+          "postalServices": [
+            {
+              "openTime": "07:00",
+              "openDay": "Monday",
+              "closeTime": "18:00",
+              "closeDay": "Monday"
+            },
+            {
+              "openTime": "07:00",
+              "openDay": "Tuesday",
+              "closeTime": "18:00",
+              "closeDay": "Tuesday"
+            },
+            {
+              "openTime": "07:00",
+              "openDay": "Wednesday",
+              "closeTime": "18:00",
+              "closeDay": "Wednesday"
+            },
+            {
+              "openTime": "07:00",
+              "openDay": "Thursday",
+              "closeTime": "18:00",
+              "closeDay": "Thursday"
+            },
+            {
+              "openTime": "07:00",
+              "openDay": "Friday",
+              "closeTime": "18:00",
+              "closeDay": "Friday"
+            },
+            {
+              "openTime": "08:00",
+              "openDay": "Saturday",
+              "closeTime": "14:00",
+              "closeDay": "Saturday"
+            }
+          ]
+        },
+        "type": {
+          "groupTypeId": 1,
+          "groupTypeName": "Service agent"
+        }
+      },
+      {
+        "name": "ICA Supermarket Gnosjö",
+        "servicePointId": "376660",
+        "phoneNoToCashRegister": "0370-332590",
+        "routingCode": null,
+        "handlingOffice": null,
+        "locationDetail": null,
+        "routeDistance": 18385,
+        "pickup": {
+          "cashOnDelivery": null,
+          "products": [
+            {
+              "name": "Parcel",
+              "timeSlots": {
+                "availableForPickupEarlyCollect": []
+              }
+            }
+          ],
+          "heavyGoodsProducts": []
+        },
+        "visitingAddress": {
+          "countryCode": "SE",
+          "city": "GNOSJÖ",
+          "streetName": "Köpmansgatan",
+          "streetNumber": "21",
+          "postalCode": "33530",
+          "additionalDescription": null
+        },
+        "deliveryAddress": {
+          "countryCode": "SE",
+          "city": "GNOSJÖ",
+          "streetName": "Köpmansgatan",
+          "streetNumber": "21",
+          "postalCode": "33530",
+          "additionalDescription": null
+        },
+        "notificationArea": {
+          "postalCodes": [
+            "33520",
+            "33521",
+            "33522",
+            "33523",
+            "33524",
+            "33525",
+            "33530",
+            "33531",
+            "33532",
+            "33533",
+            "33580",
+            "33591",
+            "33592",
+            "33593"
+          ]
+        },
+        "coordinates": [
+          {
+            "countryCode": "SE",
+            "northing": 57.356337,
+            "easting": 13.731767,
+            "srId": "EPSG:4326"
+          }
+        ],
+        "openingHours": {
+          "specialDates": [],
+          "postalServices": [
+            {
+              "openTime": "08:00",
+              "openDay": "Monday",
+              "closeTime": "21:00",
+              "closeDay": "Monday"
+            },
+            {
+              "openTime": "08:00",
+              "openDay": "Tuesday",
+              "closeTime": "21:00",
+              "closeDay": "Tuesday"
+            },
+            {
+              "openTime": "08:00",
+              "openDay": "Wednesday",
+              "closeTime": "21:00",
+              "closeDay": "Wednesday"
+            },
+            {
+              "openTime": "08:00",
+              "openDay": "Thursday",
+              "closeTime": "21:00",
+              "closeDay": "Thursday"
+            },
+            {
+              "openTime": "08:00",
+              "openDay": "Friday",
+              "closeTime": "21:00",
+              "closeDay": "Friday"
+            },
+            {
+              "openTime": "08:00",
+              "openDay": "Saturday",
+              "closeTime": "21:00",
+              "closeDay": "Saturday"
+            },
+            {
+              "openTime": "10:00",
+              "openDay": "Sunday",
+              "closeTime": "21:00",
+              "closeDay": "Sunday"
+            }
+          ]
+        },
+        "type": {
+          "groupTypeId": 1,
+          "groupTypeName": "Service agent"
+        }
+      },
+      {
+        "name": "SMÅLANDSSTENAR",
+        "servicePointId": "377631",
+        "phoneNoToCashRegister": "010-4361276",
+        "routingCode": null,
+        "handlingOffice": null,
+        "locationDetail": null,
+        "routeDistance": 20004,
+        "pickup": {
+          "cashOnDelivery": null,
+          "products": [],
+          "heavyGoodsProducts": []
+        },
+        "visitingAddress": {
+          "countryCode": "SE",
+          "city": "SMÅLANDSSTENAR",
+          "streetName": "Balkvägen",
+          "streetNumber": "1",
+          "postalCode": "33332",
+          "additionalDescription": null
+        },
+        "deliveryAddress": {
+          "countryCode": "SE",
+          "city": "SMÅLANDSSTENAR",
+          "streetName": "Balkvägen",
+          "streetNumber": "1",
+          "postalCode": "33332",
+          "additionalDescription": null
+        },
+        "notificationArea": {
+          "postalCodes": [
+            "31401",
+            "31420",
+            "33301",
+            "33320",
+            "33321",
+            "33322",
+            "33323",
+            "33324",
+            "33328"
+          ]
+        },
+        "coordinates": [
+          {
+            "countryCode": "SE",
+            "northing": 57.152793,
+            "easting": 13.401302,
+            "srId": "EPSG:4326"
+          }
+        ],
+        "openingHours": {
+          "specialDates": [
+            {
+              "reason": "All Saints Day",
+              "isClosed": true
+            },
+            {
+              "reason": "Christmas Eve",
+              "isClosed": true
+            },
+            {
+              "reason": "Christmas Day",
+              "isClosed": true
+            },
+            {
+              "reason": "Boxing Day",
+              "isClosed": true
+            },
+            {
+              "reason": "New Years Eve",
+              "isClosed": true
+            },
+            {
+              "reason": "New Years Day",
+              "isClosed": true
+            },
+            {
+              "reason": "Trettondagen",
+              "isClosed": true
+            }
+          ],
+          "postalServices": [
+            {
+              "openTime": "08:30",
+              "openDay": "Monday",
+              "closeTime": "10:00",
+              "closeDay": "Monday"
+            },
+            {
+              "openTime": "15:00",
+              "openDay": "Monday",
+              "closeTime": "18:00",
+              "closeDay": "Monday"
+            },
+            {
+              "openTime": "08:30",
+              "openDay": "Tuesday",
+              "closeTime": "10:00",
+              "closeDay": "Tuesday"
+            },
+            {
+              "openTime": "15:00",
+              "openDay": "Tuesday",
+              "closeTime": "18:00",
+              "closeDay": "Tuesday"
+            },
+            {
+              "openTime": "08:30",
+              "openDay": "Wednesday",
+              "closeTime": "10:00",
+              "closeDay": "Wednesday"
+            },
+            {
+              "openTime": "15:00",
+              "openDay": "Wednesday",
+              "closeTime": "18:00",
+              "closeDay": "Wednesday"
+            },
+            {
+              "openTime": "08:30",
+              "openDay": "Thursday",
+              "closeTime": "10:00",
+              "closeDay": "Thursday"
+            },
+            {
+              "openTime": "15:00",
+              "openDay": "Thursday",
+              "closeTime": "18:00",
+              "closeDay": "Thursday"
+            },
+            {
+              "openTime": "08:30",
+              "openDay": "Friday",
+              "closeTime": "10:00",
+              "closeDay": "Friday"
+            },
+            {
+              "openTime": "15:00",
+              "openDay": "Friday",
+              "closeTime": "18:00",
+              "closeDay": "Friday"
+            }
+          ]
+        },
+        "type": {
+          "groupTypeId": 1,
+          "groupTypeName": "Service agent"
+        }
+      },
+      {
+        "name": "ICA Nära Bredaryd",
+        "servicePointId": "375170",
+        "phoneNoToCashRegister": "0370-80018",
+        "routingCode": null,
+        "handlingOffice": null,
+        "locationDetail": null,
+        "routeDistance": 21166,
+        "pickup": {
+          "cashOnDelivery": null,
+          "products": [
+            {
+              "name": "Parcel",
+              "timeSlots": {
+                "availableForPickupEarlyCollect": []
+              }
+            }
+          ],
+          "heavyGoodsProducts": []
+        },
+        "visitingAddress": {
+          "countryCode": "SE",
+          "city": "BREDARYD",
+          "streetName": "Storgatan",
+          "streetNumber": "8",
+          "postalCode": "33371",
+          "additionalDescription": null
+        },
+        "deliveryAddress": {
+          "countryCode": "SE",
+          "city": "BREDARYD",
+          "streetName": "Storgatan",
+          "streetNumber": "8",
+          "postalCode": "33371",
+          "additionalDescription": null
+        },
+        "notificationArea": {
+          "postalCodes": [
+            "33010",
+            "33302",
+            "33371",
+            "33372",
+            "33373",
+            "33374"
+          ]
+        },
+        "coordinates": [
+          {
+            "countryCode": "SE",
+            "northing": 57.173783,
+            "easting": 13.738059,
+            "srId": "EPSG:4326"
+          }
+        ],
+        "openingHours": {
+          "specialDates": [],
+          "postalServices": [
+            {
+              "openTime": "09:00",
+              "openDay": "Monday",
+              "closeTime": "20:00",
+              "closeDay": "Monday"
+            },
+            {
+              "openTime": "09:00",
+              "openDay": "Tuesday",
+              "closeTime": "20:00",
+              "closeDay": "Tuesday"
+            },
+            {
+              "openTime": "09:00",
+              "openDay": "Wednesday",
+              "closeTime": "20:00",
+              "closeDay": "Wednesday"
+            },
+            {
+              "openTime": "09:00",
+              "openDay": "Thursday",
+              "closeTime": "20:00",
+              "closeDay": "Thursday"
+            },
+            {
+              "openTime": "09:00",
+              "openDay": "Friday",
+              "closeTime": "20:00",
+              "closeDay": "Friday"
+            },
+            {
+              "openTime": "09:00",
+              "openDay": "Saturday",
+              "closeTime": "18:00",
+              "closeDay": "Saturday"
+            },
+            {
+              "openTime": "10:00",
+              "openDay": "Sunday",
+              "closeTime": "18:00",
+              "closeDay": "Sunday"
+            }
+          ]
+        },
+        "type": {
+          "groupTypeId": 1,
+          "groupTypeName": "Service agent"
+        }
+      },
+      {
+        "name": "Unnaryds Servicebutik",
+        "servicePointId": "114783",
+        "phoneNoToCashRegister": "0371-60342",
+        "routingCode": null,
+        "handlingOffice": null,
+        "locationDetail": null,
+        "routeDistance": 24462,
+        "pickup": {
+          "cashOnDelivery": null,
+          "products": [
+            {
+              "name": "Parcel",
+              "timeSlots": {
+                "availableForPickupEarlyCollect": []
+              }
+            }
+          ],
+          "heavyGoodsProducts": []
+        },
+        "visitingAddress": {
+          "countryCode": "SE",
+          "city": "UNNARYD",
+          "streetName": "Bolmenvägen",
+          "streetNumber": "9",
+          "postalCode": "31451",
+          "additionalDescription": null
+        },
+        "deliveryAddress": {
+          "countryCode": "SE",
+          "city": "UNNARYD",
+          "streetName": "Bolmenvägen",
+          "streetNumber": "9",
+          "postalCode": "31451",
+          "additionalDescription": null
+        },
+        "notificationArea": {
+          "postalCodes": [
+            "31451",
+            "31452"
+          ]
+        },
+        "coordinates": [
+          {
+            "countryCode": "SE",
+            "northing": 56.954338,
+            "easting": 13.534255,
+            "srId": "EPSG:4326"
+          }
+        ],
+        "openingHours": {
+          "specialDates": [],
+          "postalServices": [
+            {
+              "openTime": "09:00",
+              "openDay": "Monday",
+              "closeTime": "18:00",
+              "closeDay": "Monday"
+            },
+            {
+              "openTime": "09:00",
+              "openDay": "Tuesday",
+              "closeTime": "18:00",
+              "closeDay": "Tuesday"
+            },
+            {
+              "openTime": "09:00",
+              "openDay": "Wednesday",
+              "closeTime": "18:00",
+              "closeDay": "Wednesday"
+            },
+            {
+              "openTime": "09:00",
+              "openDay": "Thursday",
+              "closeTime": "18:00",
+              "closeDay": "Thursday"
+            },
+            {
+              "openTime": "09:00",
+              "openDay": "Friday",
+              "closeTime": "18:00",
+              "closeDay": "Friday"
+            },
+            {
+              "openTime": "10:00",
+              "openDay": "Saturday",
+              "closeTime": "14:00",
+              "closeDay": "Saturday"
+            }
+          ]
+        },
+        "type": {
+          "groupTypeId": 1,
+          "groupTypeName": "Service agent"
+        }
+      }
+    ]
+  }
+}
