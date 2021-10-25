@@ -47,7 +47,7 @@ service_points.first.id
 ## Supported carriers
 * [DAO](https://www.dao.as) - [DK]
   * [API docs](https://api.dao.as/docs/)
-* [PostNord](https://www.postnord.com) (COMING SOON) [SE, DK, FI, NO, DE]
+* [PostNord](https://www.postnord.com) [SE, DK, FI, NO, DE]
   * [API docs](https://developer.postnord.com/)
 
 ## Supported features
