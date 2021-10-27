@@ -1,4 +1,5 @@
 # ShippingConnector
+[![Gem Version](https://badge.fury.io/rb/shipping_connector.svg)](https://badge.fury.io/rb/shipping_connector) [![test](https://github.com/sthyregod/shipping_connector/actions/workflows/test.yml/badge.svg)](https://github.com/sthyregod/shipping_connector/actions/workflows/test.yml)
 
 ShippingConnector is an abstraction library that makes connecting to various shipping
 carriers' APIs easier. As with everything Ruby, the goal is to make writing code that
