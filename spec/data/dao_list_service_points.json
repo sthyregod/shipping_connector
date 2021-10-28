@@ -1,0 +1,33 @@
+{
+  "status": "OK",
+  "fejlkode": "",
+  "fejltekst": "",
+  "resultat": {
+    "pakkeshops": [
+      {
+        "shopId": "1234",
+        "navn": "Mediabox",
+        "adresse": "Bilka Vejle 20",
+        "postnr": "7100",
+        "bynavn": "Vejle",
+        "udsortering": "E",
+        "latitude": "55.7119",
+        "longitude": "9.539939",
+        "afstand": 2.652,
+        "aabningstider": {
+          "man": "08:00 - 22:00",
+          "tir": "08:00 - 22:00",
+          "ons": "08:00 - 22:00",
+          "tor": "08:00 - 22:00",
+          "fre": "08:00 - 24:00",
+          "lor": "10:00 - 24:00",
+          "son": "10:00 - 22:00"
+        }
+      }
+    ],
+    "udgangspunkt": {
+      "latitude": "55.7255",
+      "longtide": "9.57005"
+    }
+  }
+}
