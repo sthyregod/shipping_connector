@@ -1,9 +1,11 @@
 # frozen_string_literal: true
 
 require 'rspec'
+require 'tzinfo'
 require 'shipping_connector/carrier'
 require 'shipping_connector/carrier/postnord'
 require 'shipping_connector/service_point'
+require 'shipping_connector/shipment'
 
 describe 'Postnord' do
   let(:stubs) { Faraday::Adapter::Test::Stubs.new }
@@ -43,6 +45,21 @@ describe 'Postnord' do
       end
       service_point = postnord.service_points(376_062, country: 'SE')
       expect(service_point.id).to eq '376062'
+    end
+  end
+
+  context 'when finding tracking events' do
+    valid_tracking = File.read('spec/data/postnord_track_by_id.json')
+    it 'returns events on valid tracking ID' do
+      stubs.get('/rest/shipment/v5/trackandtrace/ids.json') do
+        [200, { 'Content-Type': 'application/json' }, valid_tracking]
+      end
+      shipment = postnord.shipment('96932007555SE')
+      expect(shipment.id).to eq '96932007555SE'
+    end
+
+    it 'fails on unknown tracking ID' do
+
     end
   end
 end

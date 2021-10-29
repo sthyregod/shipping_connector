@@ -1,0 +1,347 @@
+{
+  "TrackingInformationResponse": {
+    "_comment": "Example courtesy of developer.postnord.com",
+    "shipments": [
+      {
+        "shipmentId": "96932007555SE",
+        "uri": "/ntt-service-rest/api/shipment/96932007555SE/0",
+        "service": {
+          "code": "17",
+          "name": "PostNord MyPack Home"
+        },
+        "status": "DELIVERED",
+        "statusText": {
+          "header": "The shipment has been delivered to the recipient",
+          "body": "The shipment was delivered on 9/8/2020 at 7:18 PM"
+        },
+        "splitStatuses": [],
+        "assessedNumberOfItems": 1,
+        "shipmentReferences": [],
+        "additionalServices": [
+          {
+            "code": "36",
+            "name": "FlexChange"
+          },
+          {
+            "code": "51",
+            "name": "Delivery Confirmation"
+          },
+          {
+            "code": "55",
+            "name": "Delivery without POD"
+          }
+        ],
+        "flexChangePossible": false,
+        "totalWeight": {
+          "value": "2.25",
+          "unit": "kg"
+        },
+        "totalVolume": {
+          "value": "0.018",
+          "unit": "m3"
+        },
+        "deliveryDate": "2020-09-08T19:18:00",
+        "consignor": {
+          "name": "PostNord Group AB",
+          "address": {
+            "countryCode": "SWE",
+            "country": "Sweden",
+            "postCode": "105 00"
+          }
+        },
+        "consignee": {
+          "address": {
+            "countryCode": "SWE",
+            "country": "Sweden",
+            "postCode": "18130"
+          }
+        },
+        "items": [
+          {
+            "itemId": "96932007555SE",
+            "dropOffDate": "2020-09-03T05:44:00",
+            "deliveryDate": "2020-09-08T19:18:00",
+            "typeOfItemActual": "UNDEF",
+            "typeOfItemActualName": "-",
+            "status": "DELIVERED",
+            "statusText": {
+              "header": "The shipment item has been delivered to the recipient",
+              "body": "The shipment item was delivered on 9/8/2020 at 7:18 PM"
+            },
+            "statedMeasurement": {
+              "weight": {
+                "value": "2.25",
+                "unit": "kg"
+              },
+              "length": {
+                "value": "0.49",
+                "unit": "m"
+              },
+              "height": {
+                "value": "0.1",
+                "unit": "m"
+              },
+              "width": {
+                "value": "0.38",
+                "unit": "m"
+              },
+              "volume": {
+                "value": "0.018",
+                "unit": "m3"
+              }
+            },
+            "events": [
+              {
+                "eventTime": "2020-09-03T09:11:00",
+                "eventCode": "209",
+                "status": "EN_ROUTE",
+                "eventDescription": "The shipment item will be delivered according to arrangement with the recipient",
+                "location": {
+                  "locationId": "14",
+                  "displayName": "PostNord",
+                  "name": "PostNord",
+                  "countryCode": "SWE",
+                  "country": "Sweden",
+                  "locationType": "HUB"
+                }
+              },
+              {
+                "eventTime": "2020-09-03T09:11:00",
+                "eventCode": "z104",
+                "status": "EN_ROUTE",
+                "eventDescription": "Delivery option made by receiver",
+                "location": {
+                  "locationId": "14",
+                  "displayName": "PostNord",
+                  "name": "PostNord",
+                  "countryCode": "SWE",
+                  "country": "Sweden",
+                  "locationType": "HUB"
+                }
+              },
+              {
+                "eventTime": "2020-09-03T09:15:00",
+                "eventCode": "z04",
+                "status": "OTHER",
+                "eventDescription": "A text message notification has been delivered to the recipient",
+                "location": {
+                  "locationId": "3",
+                  "displayName": "PostNord",
+                  "name": "PostNord",
+                  "countryCode": "SWE",
+                  "country": "Sweden",
+                  "locationType": "HUB"
+                }
+              },
+              {
+                "eventTime": "2020-09-03T20:25:00",
+                "eventCode": "31",
+                "status": "EN_ROUTE",
+                "eventDescription": "The shipment item is under transportation",
+                "location": {
+                  "locationId": "0712",
+                  "displayName": "Køge Pakkecenter - TKJ",
+                  "name": "Køge Pakkecenter - TKJ",
+                  "countryCode": "DNK",
+                  "country": "Denmark",
+                  "postcode": "4600",
+                  "city": "Køge",
+                  "locationType": "HUB"
+                }
+              },
+              {
+                "eventTime": "2020-09-04T09:37:00",
+                "eventCode": "z3D",
+                "status": "EN_ROUTE",
+                "eventDescription": "The shipment item is under transportation",
+                "location": {
+                  "locationId": "712",
+                  "displayName": "",
+                  "name": "",
+                  "countryCode": "SWE",
+                  "country": "Sweden",
+                  "locationType": "HUB"
+                }
+              },
+              {
+                "eventTime": "2020-09-04T12:03:00",
+                "eventCode": "z2C",
+                "status": "OTHER",
+                "eventDescription": "Delivery option can be changed",
+                "location": {
+                  "locationId": "3",
+                  "displayName": "PostNord",
+                  "name": "PostNord",
+                  "countryCode": "SWE",
+                  "country": "Sweden",
+                  "locationType": "HUB"
+                }
+              },
+              {
+                "eventTime": "2020-09-04T12:09:00",
+                "eventCode": "z08",
+                "status": "OTHER",
+                "eventDescription": "E-mail notification has been sent to the recipient",
+                "location": {
+                  "locationId": "3",
+                  "displayName": "PostNord",
+                  "name": "PostNord",
+                  "countryCode": "SWE",
+                  "country": "Sweden",
+                  "locationType": "HUB"
+                }
+              },
+              {
+                "eventTime": "2020-09-04T12:10:00",
+                "eventCode": "z04",
+                "status": "OTHER",
+                "eventDescription": "A text message notification has been delivered to the recipient",
+                "location": {
+                  "locationId": "3",
+                  "displayName": "PostNord",
+                  "name": "PostNord",
+                  "countryCode": "SWE",
+                  "country": "Sweden",
+                  "locationType": "HUB"
+                }
+              },
+              {
+                "eventTime": "2020-09-04T13:01:00",
+                "eventCode": "209",
+                "status": "EN_ROUTE",
+                "eventDescription": "The shipment item will be delivered according to arrangement with the recipient",
+                "location": {
+                  "locationId": "14",
+                  "displayName": "PostNord",
+                  "name": "PostNord",
+                  "countryCode": "SWE",
+                  "country": "Sweden",
+                  "locationType": "HUB"
+                }
+              },
+              {
+                "eventTime": "2020-09-04T13:01:00",
+                "eventCode": "z104",
+                "status": "EN_ROUTE",
+                "eventDescription": "Delivery option made by receiver",
+                "location": {
+                  "locationId": "14",
+                  "displayName": "PostNord",
+                  "name": "PostNord",
+                  "countryCode": "SWE",
+                  "country": "Sweden",
+                  "locationType": "HUB"
+                }
+              },
+              {
+                "eventTime": "2020-09-04T13:03:00",
+                "eventCode": "z04",
+                "status": "OTHER",
+                "eventDescription": "A text message notification has been delivered to the recipient",
+                "location": {
+                  "locationId": "3",
+                  "displayName": "PostNord",
+                  "name": "PostNord",
+                  "countryCode": "SWE",
+                  "country": "Sweden",
+                  "locationType": "HUB"
+                }
+              },
+              {
+                "eventTime": "2020-09-07T12:40:00",
+                "eventCode": "z02",
+                "status": "OTHER",
+                "eventDescription": "Notified by phone, the shipment item will be delivered according to arrangement",
+                "location": {
+                  "locationId": "550131",
+                  "displayName": "LIDINGÖ",
+                  "name": "LIDINGÖ",
+                  "countryCode": "SWE",
+                  "country": "Sweden",
+                  "postcode": "18141",
+                  "city": "Lidingö",
+                  "locationType": "SERVICE_POINT"
+                }
+              },
+              {
+                "eventTime": "2020-09-08T16:19:00",
+                "eventCode": "z114",
+                "status": "EN_ROUTE",
+                "eventDescription": "The shipment item has arrived at the distribution terminal",
+                "location": {
+                  "locationId": "5550131",
+                  "displayName": "Lidingö",
+                  "name": "Lidingö",
+                  "countryCode": "SWE",
+                  "country": "Sweden",
+                  "locationType": "SLINGA"
+                }
+              },
+              {
+                "eventTime": "2020-09-08T16:20:00",
+                "eventCode": "113",
+                "status": "EN_ROUTE",
+                "eventDescription": "The delivery of the shipment item is in progress",
+                "location": {
+                  "locationId": "5550131",
+                  "displayName": "Lidingö",
+                  "name": "Lidingö",
+                  "countryCode": "SWE",
+                  "country": "Sweden",
+                  "locationType": "SLINGA"
+                }
+              },
+              {
+                "eventTime": "2020-09-08T19:18:00",
+                "eventCode": "21",
+                "status": "DELIVERED",
+                "eventDescription": "The shipment item has been delivered",
+                "location": {
+                  "displayName": "LIDINGÖ",
+                  "name": "LIDINGÖ",
+                  "countryCode": "SWE",
+                  "country": "Sweden",
+                  "postcode": "18130",
+                  "city": "LIDINGÖ"
+                }
+              },
+              {
+                "eventTime": "2020-09-08T19:22:00",
+                "eventCode": "z04",
+                "status": "OTHER",
+                "eventDescription": "A text message notification has been delivered to the recipient",
+                "location": {
+                  "locationId": "3",
+                  "displayName": "PostNord",
+                  "name": "PostNord",
+                  "countryCode": "SWE",
+                  "country": "Sweden",
+                  "locationType": "HUB"
+                }
+              },
+              {
+                "eventTime": "2020-09-08T19:24:00",
+                "eventCode": "z08",
+                "status": "OTHER",
+                "eventDescription": "E-mail notification has been sent to the recipient",
+                "location": {
+                  "locationId": "3",
+                  "displayName": "PostNord",
+                  "name": "PostNord",
+                  "countryCode": "SWE",
+                  "country": "Sweden",
+                  "locationType": "HUB"
+                }
+              }
+            ],
+            "references": [],
+            "itemRefIds": [],
+            "freeTexts": [],
+            "deliveryTo": "Door",
+            "deliveryToInfo": "The parcel will be delivered to the door. If no one is there to receive the parcel, it will be delivered to a service point where it can be picked up."
+          }
+        ]
+      }
+    ]
+  }
+}

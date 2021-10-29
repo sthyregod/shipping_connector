@@ -7,3 +7,5 @@ gem 'faraday'
 gem 'json'
 gem 'rspec', '~> 3.0', require: false
 gem 'simplecov', require: false
+gem 'tzinfo'
+gem 'tzinfo-data'

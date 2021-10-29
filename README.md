@@ -48,9 +48,23 @@ service_points = postnord.service_points(:list_coordinates,
 Find service point from `id`:
 
 ```ruby
-service_point = carrier.service_points 1234
+service_point = carrier.service_points(1234)
 service_points.first.id
 # "1234"
+```
+
+Get tracking information (only Postnord for now):
+
+```ruby
+shipment = carrier.shipment('96932007555SE')
+shipment.id
+# "96932007555SE"
+shipment.status
+# :delivered
+shipment.events.first.time
+# 2020-09-03 09:11:00 +0200
+shipment.events.first.description
+# "The shipment item will be delivered according to arrangement with the recipient"
 ```
 
 ## Changelog
@@ -64,6 +78,7 @@ service_points.first.id
   * Nearest service points by address
   * Nearest service points by coordinates
   * Find service point by ID
+  * Get tracking information
 
 **Notes**
 
