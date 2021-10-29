@@ -57,9 +57,5 @@ describe 'Postnord' do
       shipment = postnord.shipment('96932007555SE')
       expect(shipment.id).to eq '96932007555SE'
     end
-
-    it 'fails on unknown tracking ID' do
-
-    end
   end
 end
