@@ -46,7 +46,34 @@ module ShippingConnector
       end
     end
 
+    # Returns a shipment with a list of events
+    # @param id [String] the shipment id
+    # @param locale [Symbol] two-letter language code, e.g. :da or :en
+    # @return [Shipment] the shipment for the given id
+    def shipment(id, locale: :en)
+      # Ugh... Why is Postnord not consistent in their API...
+      data = get('/rest/shipment/v5/trackandtrace/ids.json',
+                 { id: id, locale: locale })
+
+      shipment = data['shipments'].first { |s| s['shipmentId'] == id.to_s }
+      raise "Shipment with ID #{id} not found" unless shipment
+
+      item = shipment['items'].first { |i| i['itemId'] == id.to_s }
+      raise "The shipment returned no items with ID #{id}" unless item
+
+      generate_shipment(shipment['status'], item)
+    end
+
     private
+
+    def generate_shipment(status, item)
+      events = generate_events(item['events'])
+      Shipment.new(
+        id: item['itemId'],
+        events: events, status: convert_status(status),
+        status_description: item['statusText']['header']
+      )
+    end
 
     def auth_params
       { apikey: @options[:api_key], returnType: 'json' }
@@ -54,17 +81,21 @@ module ShippingConnector
 
     def get(path, params)
       response = super(path, params.merge(auth_params))
-      JSON.parse response.body
+      body = JSON.parse(response.body)
+      return body.values.first if body.keys.first =~ /Response$/
+
+      body
     rescue Faraday::ClientError => e
       body = JSON.parse e.response[:body]
-      raise StandardError, "Postnord error: #{body['message']}"
+      message = body.values.first['compositeFault']['faults'][0]
+      raise StandardError, "Postnord error #{message['faultCode']}: #{message['explanationText']}"
     end
 
     def find_service_point(id, arguments)
       service_point = get('/rest/businesslocation/v5/servicepoints/ids',
                           {
                             ids: id, countryCode: arguments[:country]
-                          })['servicePointInformationResponse']['servicePoints'].first
+                          })['servicePoints'].first
 
       ServicePoint.new(
         id: service_point['servicePointId'], zip_code: service_point['visitingAddress']['postalCode'],
@@ -87,7 +118,7 @@ module ShippingConnector
       params[:numberOfServicePoints] = options[:limit] || 10
 
       array = get('/rest/businesslocation/v5/servicepoints/nearest/byaddress',
-                  params)['servicePointInformationResponse']['servicePoints']
+                  params)['servicePoints']
 
       generate_service_points array
     end
@@ -99,7 +130,7 @@ module ShippingConnector
                     northing: options[:latitude],
                     easting: options[:longitude],
                     numberOfServicePoints: options[:limit] || 10
-                  })['servicePointInformationResponse']['servicePoints']
+                  })['servicePoints']
 
       generate_service_points array
     end
@@ -112,7 +143,7 @@ module ShippingConnector
           name: service_point['name'], city: service_point['visitingAddress']['city'],
           address: "#{service_point['visitingAddress']['streetName']} #{service_point['visitingAddress']['streetName']}",
           distance: service_point['routeDistance'], opening_hours: opening_hours(service_point['openingHours'])
-)
+        )
       end
       result
     end
@@ -125,6 +156,36 @@ module ShippingConnector
       end
 
       ServicePoint::OpeningHours.new(hash)
+    end
+
+    def generate_events(events)
+      array = []
+      events.each do |event|
+        array << Shipment::Event.new(
+          type: convert_status(event['status']),
+          time: convert_time(event['eventTime']),
+          description: event['eventDescription'],
+          location: event['location']['displayName']
+        )
+      end
+      array
+    end
+
+    def convert_status(status)
+      # FIXME: Find a good status category for 'OTHER'
+      hash = {
+        'DELIVERED' => :delivered,
+        'EN_ROUTE' => :en_route,
+        'AVAILABLE_FOR_DELIVERY' => :available_for_delivery
+      }
+      return hash[status] if hash[status]
+
+      warn "Unknown status: #{status}"
+      :unknown
+    end
+
+    def convert_time(time_string)
+      TZInfo::Timezone.get('Europe/Copenhagen').to_local(Time.parse(time_string))
     end
   end
 end
