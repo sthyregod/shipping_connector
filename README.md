@@ -1,5 +1,6 @@
 # ShippingConnector
 [![Gem Version](https://badge.fury.io/rb/shipping_connector.svg)](https://badge.fury.io/rb/shipping_connector) [![test](https://github.com/sthyregod/shipping_connector/actions/workflows/test.yml/badge.svg)](https://github.com/sthyregod/shipping_connector/actions/workflows/test.yml)
+[![FOSSA Status](https://app.fossa.com/api/projects/git%2Bgithub.com%2Fsthyregod%2Fshipping_connector.svg?type=shield)](https://app.fossa.com/projects/git%2Bgithub.com%2Fsthyregod%2Fshipping_connector?ref=badge_shield)
 
 ShippingConnector is an abstraction library that makes connecting to various shipping
 carriers' APIs easier. As with everything Ruby, the goal is to make writing code that
@@ -94,3 +95,6 @@ Please make sure to update tests as appropriate.
 
 ## License
 [MIT](https://choosealicense.com/licenses/mit/)
+
+
+[![FOSSA Status](https://app.fossa.com/api/projects/git%2Bgithub.com%2Fsthyregod%2Fshipping_connector.svg?type=large)](https://app.fossa.com/projects/git%2Bgithub.com%2Fsthyregod%2Fshipping_connector?ref=badge_large)
